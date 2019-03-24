@@ -1,0 +1,47 @@
+\chapter{Conclusiones y trabajos futuros}
+\label{Ch:Conclusiones}
+
+%Del trabajo realizado en esta tesis se concluye que el PID
+%\emph{wavelet} presenta mejores resultados comparados con los
+%arrojados por el PID tradicional, esto para plantas de naturaleza
+%estable. Dicha mejora se debe a la descomposición que el diseñador
+%puede realizar, en teoría la descomposición puede ser infinita,
+%pero en la práctica es recomendable que sea finita, debido a las
+%limitaciones, además que entre más grande es la descomposición
+%mayor es el número de ganancias a ser sintonizadas. Para sistemas
+%que son de naturaleza inestable el PID \emph{wavelet} no presenta
+%buenos resultados, es por ello que se propone el PID
+%\emph{wavenet}, el cual será tratado en el Capítulo
+%\ref{Ch:ContPIDWavenet}.
+
+\section{Conclusiones.}
+
+En este trabajo de investigación se diseñaron dos variantes del
+controlador PID que hacen uso de la teoría \emph{wavelet}. El
+primero es el PIDMR que hace uso de una descomposición de la señal
+del error, donde dicha descomposición se efectúa mediante la
+técnica multiresolución y decodificación sub-banda, este
+controlador se emplea para controlar un motor de CD presentando
+buenos resultados tanto en simulación como en laboratorio, el
+segundo controlador llamado \emph{wavenet} hace uso de redes
+neuronales de base radial con funciones de activación que son
+\emph{wavelets} hijas, aquí las redes se emplean para dos
+propósitos (ver Figura \ref{Fig:ControlWavenet}), una para la
+identificación del sistema y otra para la sintonización de los
+parámetros del PID \emph{wavenet}, este controlador también se
+aplicó a un motor de CD obteniéndose resultados satisfactorios, de
+lo anterior se concluye que el objetivo de la tesis se cumplió
+satisfactoriamente.
+
+\section{Trabajos futuros.}
+
+Algunos de los trabajos futuros que se desprenden de esta tesis
+son:
+
+\begin{itemize}
+    \item Encontrar un método de sintonización del PIDMR.
+    \item Hacer un análisis riguroso de la convergencia de los
+    algoritmos.
+    \item Hacer un estudio sobre la estabilidad en lazo cerrado
+    para ambos esquemas propuestos en la tesis.
+\end{itemize}
