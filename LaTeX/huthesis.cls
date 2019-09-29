@@ -244,7 +244,7 @@
 % supporting the title and approval pages.
 %
 % \tableofcontents:
-\def\contentsname{Índice general}
+\def\contentsname{Ãndice general}
 %                 ~~~~~~~~
 %
 % \listoffigures:
@@ -256,11 +256,11 @@
 %                  ~~~~~~~~~~~~~~
 %
 % \thebibliography:
-\def\bibname{Bibliografía}
+\def\bibname{BibliografÃ­a}
 %            ~~~~~~~~~~~~
 %
 % \theindex:
-\def\indexname{Índice}
+\def\indexname{ï¿½ndice}
 %              ~~~~~
 %
 % figure environment:
@@ -272,10 +272,10 @@
 %              ~~~~~
 %
 % \chapter:
-\def\chaptername{Capítulo}
+\def\chaptername{CapÃ­tulo}
 %                ~~~~~~~
 % \appendix:
-\def\appendixname{Apéndice}
+\def\appendixname{ApÃ©ndice}
 %                 ~~~~~~~~
 % \part
 \def\partname{Parte}
@@ -357,7 +357,7 @@
 %  \hsp % intermediate spacing for title page.
 %  \newpage
 %  \thispagestyle{empty}
-%  \addcontentsline{toc}{section}{Página de título}
+%  \addcontentsline{toc}{section}{Pï¿½gina de tï¿½tulo}
 %  \centerline{\ }
 %  \vspace{0.5in}
 %  \begin{center}
